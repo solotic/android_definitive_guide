@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ImplicitCallActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_implicit_call">ImplicitCallActivity</string>
+    <string name="title_activity_my">MyActivity</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ScreenOrientation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_screen_orientation">屏幕方向</string>
+    <string name="title_activity_my">MyActivity</string>
+
+</resources>

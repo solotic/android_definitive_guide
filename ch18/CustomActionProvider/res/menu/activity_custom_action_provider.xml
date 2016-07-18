@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_provider1"
+        android:actionProviderClass="mobile.android.custom.action.provider.NewCustomActionProvider"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="自定义Provider"/>
+    
+    <item
+        android:id="@+id/menu_provider2"
+        android:actionProviderClass="mobile.android.custom.action.provider.NewCustomActionProvider"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="never"
+        android:title="自定义Provider"/>
+  
+</menu>

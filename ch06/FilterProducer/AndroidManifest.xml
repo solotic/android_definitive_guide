@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobile.android.filter.producer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="mobile.android.filter.producer.FilterProducerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTION1" />
+                <action android:name="android.intent.action.MYACTION2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MYCATEGORY1" />
+                <category android:name="android.intent.category.MYCATEGORY2" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTION3" />
+                <action android:name="android.intent.action.MYACTION4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MYCATEGORY3" />
+                <category android:name="android.intent.category.MYCATEGORY4" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTION5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MYCATEGORY5" />
+
+                <data android:scheme="http" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTION6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="audio/*"
+                    android:path="/work/upload.jsp"
+                    android:port="8080"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTION7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="192.168.17.100"
+                    android:mimeType="audio/*"
+                    
+                    android:port="8080"
+                    android:scheme="ftp" />
+                <data android:pathPattern=".*.html" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MYACTION7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="192.168.17.111"
+                    android:mimeType="audio/*"
+                    android:path="/work/test.up"
+                    android:pathPattern=".*.html"
+                    android:pathPrefix="/test"
+                    android:port="8888"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

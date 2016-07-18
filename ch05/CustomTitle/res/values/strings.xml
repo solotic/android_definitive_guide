@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">CustomTitle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_custom_title">CustomTitleActivity</string>
+    <string name="title_activity_change_title_bar">ChangeTitleBarActivity</string>
+    <string name="title_activity_full_screen_title">FullScreenTitleActivity</string>
+    <string name="title_activity_hide_old_title_bar">HideOldTitleBarActivity</string>
+    <string name="title_activity_change_title_layout">ChangeTitleLayoutActivity</string>
+
+</resources>

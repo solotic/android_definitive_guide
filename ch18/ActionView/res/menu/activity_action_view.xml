@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_edit"
+
+        android:actionViewClass="android.widget.EditText"
+ 
+        android:showAsAction="always"
+        android:title="编辑"/>
+    <item
+        android:id="@+id/menu_item_clock"
+        android:actionLayout="@layout/action_view_clock"
+        android:icon="@drawable/time"
+  
+        android:showAsAction="always"
+        android:title="时间"/>
+    <item
+        android:id="@+id/menu_item_clock"
+        android:actionLayout="@layout/action_view_clock"
+        android:icon="@drawable/time"
+     
+        android:showAsAction="always|collapseActionView"
+        android:title="时间"/>
+    <item
+        android:id="@+id/menu_item_search"
+        android:actionViewClass="android.widget.SearchView1"
+        android:icon="@drawable/search"
+      
+        android:showAsAction="always|collapseActionView"
+        android:title="搜素"/>
+
+</menu>

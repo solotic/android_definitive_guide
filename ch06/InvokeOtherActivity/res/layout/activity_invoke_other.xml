@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Action"
+        android:text="浏览网页：Action" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SetClassName"
+        android:text="浏览网页：setClassName" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SetClassName_Context"
+        android:text="浏览网页：setClassName_Context" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SetClass"
+        android:text="浏览网页：setClass" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_SetComponentName"
+        android:text="浏览网页：setComponentName" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ShowCalculator"
+        android:text="显示计算器" />
+
+</LinearLayout>

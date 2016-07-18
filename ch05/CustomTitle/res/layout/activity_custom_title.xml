@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ChangeTitleBar"
+        android:text="直接修改标题栏" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ChangeTheme"
+        android:text="改变窗口主题" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ChangeTitleLayout"
+        android:text="修改标题的布局文件" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_HideOldAddNewTitleBar"
+        android:text="隐藏原有的标题栏，添加新的标题栏" />
+
+</LinearLayout>

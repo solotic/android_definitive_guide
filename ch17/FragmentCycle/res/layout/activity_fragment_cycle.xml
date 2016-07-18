@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragment1_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="mobile.android.fragment.cycle.MyFragment1"  />
+
+    <fragment
+        android:id="@+id/fragment2_test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        class="mobile.android.fragment.cycle.MyFragment2" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/CustomText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="类型资源"  />
+
+    <Button
+        style="@style/CustomText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textColor="?android:colorForeground"
+        android:textSize="20sp"/>
+
+    <ImageView
+        style="@style/CustomText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="?mycolor"/>
+
+</LinearLayout>

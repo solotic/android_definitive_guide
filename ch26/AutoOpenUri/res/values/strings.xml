@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">自动打开Uri</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_auto_run_application">自动打开Uri</string>
+    <string name="title_activity_installed_application_list">已安装应用程序</string>
+
+</resources>

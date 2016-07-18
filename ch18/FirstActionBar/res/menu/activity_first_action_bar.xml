@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/save"
+        android:showAsAction="ifRoom|withText"
+        android:title="保存"/>
+    <item
+        android:id="@+id/menu_open"
+        android:icon="@drawable/open"
+        android:showAsAction="ifRoom"
+        android:title="打开"/>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search"
+        android:showAsAction="always"
+        android:title="保存"/>
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="菜单项1"/>
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom"
+        android:title="菜单项2"/>
+   
+</menu>

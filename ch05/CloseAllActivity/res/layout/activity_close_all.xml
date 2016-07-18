@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示新窗口" android:onClick="onClick_ShowNewActivity"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回主窗口，并关闭除了主窗口外的所有窗口" android:onClick="onClick_CloseAllActivity"  />
+    
+</LinearLayout>

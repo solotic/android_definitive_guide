@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Nine_Patch"
+		android:onClick="onClick_Nine_Patch" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Include"
+		android:onClick="onClick_Layout_Include" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Layer"
+		android:onClick="onClick_Layer" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="ButtonState"
+		android:onClick="onClick_ButtonState" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Level"
+		android:onClick="onClick_Level" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="CrossFade"
+		android:onClick="onClick_CrossFade" />
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Inset"
+		android:onClick="onClick_Inset" />		
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Clip"
+		android:onClick="onClick_Clip" />	
+	<Button android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Shape"
+		android:onClick="onClick_Shape" />	
+</LinearLayout>

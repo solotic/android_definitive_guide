@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mobile="http://mobile.android.widget.file.browser" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<mobile.android.widget.file.browser.FileBrowser
+		android:id="@+id/filebrowser" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" mobile:folderImage="@drawable/folder"
+		mobile:otherFileImage="@drawable/other" />
+</LinearLayout>

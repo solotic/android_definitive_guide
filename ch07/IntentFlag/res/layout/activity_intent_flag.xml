@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ShowIntentFlagActivity_SingleTop"
+        android:text="显示IntentFlagActivity窗口（singleTop）" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_ShowMyActivity"
+        android:text="显示MyActivity窗口" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_OtherAppActivity_Standard"
+        android:text="显示其他程序的窗口(standard)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_OtherAppActivity_SingleTask"
+        android:text="显示其他程序的窗口(singleTask)" />
+
+
+
+</LinearLayout>

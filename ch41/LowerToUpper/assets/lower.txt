@@ -1,0 +1,3 @@
+The latest version of Jelly Bean is here, with performance optimizations, a refreshed UI, and great new features for developers.
+
+Android 4.2 includes APIs for developing lock sceen widgets and Daydream screensavers, using external displays, creating RTL layouts, building flexible UI with nested Fragments, and much more.

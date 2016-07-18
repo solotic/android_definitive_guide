@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:onClick="onClick_IntentFilter2"
+		android:text="使用第2个Intent Filter" />
+
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:onClick="onClick_IntentFilter3"
+		android:text="使用第3个Intent Filter" />
+
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:onClick="onClick_IntentFilter4"
+		android:text="使用第4个Intent Filter" />
+
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:onClick="onClick_IntentFilter5"
+		android:text="使用第5个Intent Filter" />
+
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:onClick="onClick_IntentFilter6"
+		android:text="使用第6个Intent Filter" />
+
+	<Button android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:onClick="onClick_IntentFilter7"
+		android:text="使用第7个Intent Filter" />
+
+</LinearLayout>

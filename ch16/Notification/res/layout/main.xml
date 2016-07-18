@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:onClick="onClick_ShowCommonNotification"
+        android:text="显示普通的Notification" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:onClick="onClick_ShowBigIconNotification"
+        android:text="显示大图标Notification" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:onClick="onClick_ShowBigPictureNotification"
+        android:text="显示大图Notification" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:onClick="onClick_ShowInfoNotification"
+        android:text="显示带信息的Notification" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:onClick="onClick_ShowProgressNotification"
+        android:text="显示带进度条的Notification" />
+
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:onClick="onClick_ClearAllNotification"
+        android:text="清除所有的Notification" />
+</LinearLayout>

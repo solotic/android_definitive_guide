@@ -1,0 +1,1 @@
+java -classpath .;c:.\swt.jar;.\anfcman.jar galaxy.geek.nfc.NFCMain

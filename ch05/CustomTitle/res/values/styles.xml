@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="WindowTitleBackground" >
+        <item name="android:background">@drawable/bg</item>
+    </style> 
+  
+    <style name="MyTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+
+    <style name="WindowTitleBackground1">
+        <item name="android:background">#000</item>
+    </style>
+
+    <style name="MyTheme1" parent="android:Theme">
+        <item name="android:textSize">30sp</item>
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground1</item>
+    </style>
+
+</resources>

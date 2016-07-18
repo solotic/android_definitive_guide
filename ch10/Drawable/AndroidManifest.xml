@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="mobile.android.drawable" android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="10" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".MyResource" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Nine_Patch" android:label="Nine_Patch" />
+		<activity android:name="Include" android:label="Include" />
+		<activity android:name=".Layer" android:label="Layer" />
+		<activity android:name=".ButtonState" android:label="ButtonState" />
+		<activity android:name=".Level" android:label="Level" />
+		<activity android:name="CrossFade" android:label="CrossFade" />
+		<activity android:name="Inset" android:label="Inset" />
+		<activity android:name="Clip" android:label="Clip" />
+		<activity android:name="Shape" android:label="Shape" />
+	</application>
+</manifest>

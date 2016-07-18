@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mnuFestival"
+        android:icon="@drawable/festival"
+        android:title="节日"/>
+
+    <group android:id="@+id/mnuFunction" >
+        <item
+            android:id="@+id/mnuEdit"
+            android:icon="@drawable/edit"
+            android:title="编辑"/>
+        <item
+            android:id="@+id/mnuDelete"
+            android:icon="@drawable/delete"
+            android:onClick="onClick_Delete"
+            android:title="删除"/>
+        <item
+            android:id="@+id/mnuFinish"
+            android:icon="@drawable/finish"
+            android:title="完成"/>
+    </group>
+
+    <item
+        android:id="@+id/mnuOthers"
+        android:title="其他功能">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/mnuDiary"
+                    android:checked="true"
+                    android:menuCategory="system"
+                    android:title="日记"/>
+                <item
+                    android:id="@+id/mnuAudio"
+                    android:orderInCategory="2"
+                    android:title="音频"/>
+                <item
+                    android:id="@+id/mnuVideo"
+                    android:orderInCategory="3"
+                    android:title="视频"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
